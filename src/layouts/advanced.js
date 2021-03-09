@@ -20,7 +20,7 @@ export default class Advanced extends React.Component {
                         <div key={index}>
                             <h3>{name}</h3>
                             <p>{rating}</p>
-                            <p>{message}</p>
+                            <p>{review}</p>
                         </div>
                     ))}
                 </div>
