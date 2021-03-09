@@ -16,7 +16,7 @@ export default class Advanced extends React.Component {
             })}
             <div>
                     <h2>Reviews</h2>
-                    {_.get(this.props, 'pageContext.frontmatter.review', null) && _.get(this.props, 'pageContext.frontmatter.review', null).map(({ name, rating, message }, index) => (
+                    {_.get(this.props, 'pageContext.frontmatter.review', null) && _.get(this.props, 'pageContext.frontmatter.review', null).map(({ name, rating, review }, index) => (
                         <div key={index}>
                             <h3>{name}</h3>
                             <p>{rating}</p>
