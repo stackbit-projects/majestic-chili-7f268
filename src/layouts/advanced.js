@@ -13,6 +13,7 @@ export default class Advanced extends React.Component {
                 return (
                   <Component key={section_idx} {...this.props} section={section} site={this.props} />
                 )
+            
             })}
             </Layout>
         );
